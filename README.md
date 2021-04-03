@@ -8,7 +8,7 @@ I am still working on it and I will be pushing changes as and when I work on it.
 There are two files. Main.cpp and injector_2.cpp. I have compiled both these files into exe as you can see. 
 Main.cpp is a test programme. Injector injects the DLL. The DLL's file name is taken as a cmd line argument.
 
-## How does it do it?
+## How does it work?
 It uses the CreateRemoteThread() function from the Windows API, to create a handle to a process by taking in the process ID. 
 
 # Syntax for using the inject exe:

@@ -10,7 +10,7 @@ Main.cpp is a test programme. Injector injects the DLL. The DLL's file name is t
 
 ## How does it work?
 It uses the CreateRemoteThread() function from the Windows API, to create a handle to a process by taking in the process ID. 
-[Link to CreateRemoteThreat() of Microsoft Docs ] https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createremotethread
+[Link to CreateRemoteThreat() of Microsoft Docs ]: https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createremotethread
 # Syntax for using the inject exe:
 
 **inject <dll_filename.dll>**
